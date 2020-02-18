@@ -10,12 +10,7 @@ import string
 
 
 c = Crtsh()
-file1 = open('tvsm.txt', 'r') 
-Lines = file1.readlines()
-lamp = list(map(lambda x:x.strip(),Lines))
-# print(lamp)
-for i in range(0, len(lamp)):
-    print("########################################################################################################################## \n")
+:
     print(lamp[i])
     certs = c.search("awmdm.tvsmotor.com")
     # print(certs)
